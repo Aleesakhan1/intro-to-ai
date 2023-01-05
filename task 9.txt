@@ -1,0 +1,28 @@
+
+Open In Colab
+
+geneSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!,. ?"
+import random
+import datetime
+def Calculate_Fitness(guess):
+    return sum(1 for expected,actual in zip(target,guess) if expected==actual)
+
+def Cross_Over(length):
+    genes=[]
+    while len(genes)=childFitness:
+            continue
+        Display(child, startTime)
+        if childFitness>=len(bestParent):
+            break
+            exit(0)
+        bestFitness=childFitness
+        bestParent=child
+target = input()
+run_genetic_algo(target)
+     
+anas
+hHOM	0	0:00:00.000192
+hHaM	1	0:00:00.002006
+aHaM	2	0:00:00.004349
+anaM	3	0:00:00.005102
+anas	4	0:00:00.006717
