@@ -1,0 +1,211 @@
+
+Open In Colab
+ALEESA KHAN
+REG NO#SP22-BAI-002
+
+
+print("Hello")
+     
+Hello
+
+n=input("Enter a number")
+if int(n)%2==0:
+    print("the given number is an even number")
+else:
+    print("the given number is an odd nmber")
+     
+Enter a number3
+the given number is an odd nmber
+
+sum=0
+s=input("Enter an integer value...")
+n=int(s)
+while n!=0:
+    sum=sum+n
+    s=input("Enter an integer value...")
+    n=int(s)
+print("Sum of given values is ",sum)
+    
+     
+Enter an integer value...2
+Enter an integer value...3
+Enter an integer value...76
+Enter an integer value...2
+Enter an integer value...0
+Sum of given values is  83
+
+isPrime= True
+i=2
+n=int(input("enter a number"))
+while i
+enter a number2
+number is Prime
+
+summation=0
+i=1
+while i<=10:
+    summation=summation+i
+    i=i+1
+print("sum is ",summation)
+
+     
+sum is  55
+
+sum=0
+i=0
+while i<=4:
+    s=input("enter a number")
+    n=int(s)
+    sum=sum+n
+    i=i+1
+print("sum is  ",sum)
+     
+enter a number4
+enter a number8
+enter a number2
+enter a number45
+enter a number5
+sum is   64
+
+
+name=input('what is your name?')
+print('Hello  '+ name)
+
+job=input('what is your job?')
+print('your job is '+job)
+
+num=input('give me a number?')
+print('you said: '+str(num))
+
+     
+what is your name?Muhammad Anas Arif
+Hello  Muhammad Anas Arif
+what is your job?AI engineer
+your job is AI engineer
+give me a number?10
+you said: 10
+
+import random
+
+Minimum=1
+maximum=9
+number=random.randint(Minimum,maximum)
+guess=None
+another=None
+Try=0
+running=True
+
+print("Alright...")
+
+while running:
+    guess=input("what is your lucky number?")
+    if int(guess)number:
+        print("wrong,too high")
+    elif guess.lower()=="exit":
+        print("better luck next time")
+    elif int(guess)==number:
+        print ("yes,that,s the one ")
+        if Try < 2:
+            print("impressive, only ",Try," tries.")
+        elif Try>2 and Try<10:
+            print("Pretty good ",Try," tries.")
+        else:
+            print("bad",Try," tries.")
+            running=False
+    Try+=1
+              
+     
+Alright...
+what is your lucky number?3
+wrong,too low
+what is your lucky number?6
+wrong,too high
+what is your lucky number?4
+yes,that,s the one 
+bad 2  tries.
+INTRO TO AI LAB LAB 1 TASKS
+
+
+n=int(input("Enter number: "))
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+print("Reverse of the number:",rev)
+     
+Enter number: 125
+Reverse of the number: 521
+
+setOfIntegers=[]
+n=int(input("enter the number of integers you want to enter"))
+i=0
+while n-1>=i:
+    integer=int(input())
+    setOfIntegers.append(integer)
+    i=i+1
+k=0
+sumEven=0
+sumOdd=0
+while n-1>=k:
+    if setOfIntegers[k]%2==0:
+        sumEven=sumEven+setOfIntegers[k]
+    else:
+        sumOdd=sumOdd+setOfIntegers[k]
+    k=k+1
+print("The sum of even numbers is :",sumEven)
+print("The sum of odd numbers is :",sumOdd)
+
+     
+enter the number of integers you want to enter4
+2
+3
+4
+5
+The sum of even numbers is : 6
+The sum of odd numbers is : 8
+
+i=0
+k=1
+sum=0
+l=1
+while l<=10:
+    sum=i+k
+    print(sum,end=' ')
+    i=k
+    k=sum
+    l=l+1
+    
+
+     
+1 2 3 5 8 13 21 34 55 89 
+
+n=int(input("Enter a number"))
+fact=1
+i=1
+while i<=n:
+    fact=fact*i
+    i=i+1
+print("The factorial of the number is",fact)
+
+     
+Enter a number5
+The factorial of the number is 120
+
+marks=int(input("Enter your marks"))
+if marks<50:
+    print("YOUR GRADE IS F")
+elif marks>50 and marks<60:
+    print("YOUR GRADE IS E")
+elif marks>61 and marks<70:
+    print("YOUR GRADE IS D")
+elif marks>71 and marks<80:
+    print("YOUR GRADE IS C")
+elif marks>81 and marks<90:
+    print("YOUR GRADE IS B")
+elif marks>91 and marks<=100:
+    print("YOUR GRADE IS A")
+
+     
+Enter your marks88
+YOUR GRADE IS B
